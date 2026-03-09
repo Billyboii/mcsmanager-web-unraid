@@ -30,4 +30,6 @@
 
   <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="Syncs container time with host." Type="Path" Display="advanced" Required="true" Mask="false">/etc/localtime</Config>
 
+  <Config Name="Daemon Data (Read)" Target="/opt/mcsmanager/daemon/data" Default="/mnt/user/appdata/mcsmanager/daemon/data" Mode="ro" Description="Allows the Web panel to read the Daemon configuration automatically." Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/mcsmanager/daemon/data</Config>
+
 </Container>
