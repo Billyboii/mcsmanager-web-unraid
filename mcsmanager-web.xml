@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/MCSManager/MCSManager</Support>
   <Project>https://mcsmanager.com</Project>
-  <Overview>MCSManager (MCSM) is a fast, lightweight, open-source, web-based game server management panel. Manage multiple Minecraft Java/Bedrock, Steam, and other game servers from a single intuitive interface. Supports real-time console logging, automated backups, scheduled tasks, and multi-user support with granular permissions.&#xD;&#xD;NOTE: This is the Web UI component. You must also run the MCSManager-Daemon container. After installation, open the Web UI, go to Nodes, and set the Daemon address to http://YOUR_UNRAID_IP:24444</Overview>
+  <Overview>MCSManager (MCSM) is a fast, lightweight, open-source, web-based game server management panel. Manage multiple Minecraft Java/Bedrock, Steam, and other game servers from a single intuitive interface. Supports real-time console logging, automated backups, scheduled tasks, and multi-user support with granular permissions.&#xD;&#xD;NOTE: This is the Web UI component. You must also run the MCSManager-Daemon container. After installation, open the Web UI, go to Nodes, set a name for the Node, and set the Daemon address to http://YOUR_UNRAID_IP:24444</Overview>
   <Category>GameServers: Tools:</Category>
   <WebUI>http://[IP]:[PORT:23333]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Billyboii/unraid-mcsmanager/main/mcsmanager-web.xml</TemplateURL>
