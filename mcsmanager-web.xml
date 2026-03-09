@@ -20,7 +20,7 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Requires>MCSManager-Daemon must also be running.</Requires>
+  <Requires>MCSManager-Daemon must also be running. It's best to install this one second.</Requires>
 
   <Config Name="Web UI Port" Target="23333" Default="23333" Mode="tcp" Description="Port to access the MCSManager web interface." Type="Port" Display="always" Required="true" Mask="false">23333</Config>
 
