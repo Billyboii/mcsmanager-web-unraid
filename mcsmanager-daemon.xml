@@ -32,6 +32,8 @@
 
   <Config Name="Minecraft Port Range UDP" Target="25565-25575" Default="25565-25575" Mode="udp" Description="UDP port range for Minecraft Bedrock server instances." Type="Port" Display="always" Required="true" Mask="false">25565-25575</Config>
 
+  <Config Name="Web Map Port" Target="" Default="" Mode="tcp" Description="Optional port range for web map viewing (Bluemap, Dynmap) (eg. 8100, 8123)" Type="Port" Display="always" Required="false" Mask="false">8100</Config>
+
   <Config Name="Docker Workspace Path" Target="MCSM_DOCKER_WORKSPACE_PATH" Default="/mnt/user/appdata/mcsmanager/daemon/data/InstanceData" Mode="" Description="Path where MCSManager stores game server instance data. Must match the Daemon Data path." Type="Variable" Display="always" Required="true" Mask="false">/mnt/user/appdata/mcsmanager/daemon/data/InstanceData</Config>
 
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Allows MCSManager Daemon to manage Docker containers for game servers." Type="Path" Display="advanced" Required="true" Mask="false">/var/run/docker.sock</Config>
