@@ -12,7 +12,7 @@
   <Overview>MCSManager (MCSM) Daemon - the backend component that manages and runs your game server instances. Communicates with the MCSManager Web UI panel to launch, stop, and monitor servers.&#xD;&#xD;NOTE: This is the Daemon component. You must also run the MCSManager-Web container. After installation, open the Web UI, go to Nodes, set a name for the Node, and set the Daemon IP to YOUR_UNRAID_IP</Overview>
   <Category>GameServers: Tools:</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/Billyboii/unraid-mcsmanager/main/mcsmanager-daemon.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Billyboii/mcsmanager-unraid/main/mcsmanager-daemon.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/MCSManager/MCSManager/master/frontend/public/favicon.ico</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
